@@ -1,0 +1,75 @@
+/* Write your CSS here */
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 1px #dcdcdc;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 10px;
+}
+
+.web-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.hamburger-button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100%;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.close-icon {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-items-list {
+  padding-left: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.nav-item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-item-name {
+  color: #616e7c;
+  font-size: 35px;
+  font-family: Roboto;
+  font-weight: 500;
+}
